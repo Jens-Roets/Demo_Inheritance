@@ -11,6 +11,10 @@ public class Voertuig {
         setAantalPersonen(aantalPersonen);
     }
 
+    public Voertuig() {
+
+    }
+
     public void setSoort(String naam) {
         this.soort = naam;
     }
